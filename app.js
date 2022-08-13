@@ -3,8 +3,9 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output");
-var serverURL = "https://api.funtranslations.com/translate/pirate.json"
-// outputDiv.innerText = "vinla";
+var serverURL = "https://api.funtranslations.com/translate/pirate.json";
+
+
 
 
 // console.log(txtInput)
