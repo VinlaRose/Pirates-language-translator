@@ -1,0 +1,43 @@
+:root{
+    --primary-color:  #3B7197;
+    --secondary-color: #4A8DB7;
+    --tertiary-color: #74BDE0;
+    --fourth-color: #A1E1FA;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+body{
+    font-family: 'Nova Round', cursive;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.header-design{
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--fourth-color);   
+}
+
+.btn-design{
+    
+        
+        color: white;
+        background-color:var(--secondary-color);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.footer-design{
+    padding: 2rem;
+    background-color:var(--secondary-color);
+    color: white;
+    text-align: center;
+}
